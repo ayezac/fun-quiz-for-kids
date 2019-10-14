@@ -1,0 +1,47 @@
+nav{
+    width: 100vw;
+    height: 70px;
+    background-color: #f5f5f5;
+}
+#navbar{
+float: left;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-end;
+width: 30vw;
+list-style: none;
+height: 55px;
+font-size: 20px;
+color: #FC5185;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: none;
+}
+#home-link{
+    text-decoration: none;
+    color: #FC5185;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #FC5185;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ 
+  }
+
+  .links{
+      color: #f5f5f5;
+      text-align: center;
+      text-decoration: none;
+      padding: 5px;
+
+  }
+  .links:hover{
+    color:#364F68;  
+  }
+ .categories:hover .dropdown-content {
+     display: block;  
+    }
