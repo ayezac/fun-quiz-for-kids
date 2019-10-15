@@ -51,4 +51,12 @@ text-decoration: none;
         #navbar{
             width: 100vw;
         }
+        .dropdown-content {
+            min-width: 120px;         
+          }
+        
+          .links{
+          font-size: 16px;
+        
+          }
     }
