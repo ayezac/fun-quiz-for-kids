@@ -9,7 +9,7 @@ const Home = () => {
  
     return(
         <div className='quiz-container'>
-            <div>
+            <div id='title-container'>
                 <h1>It's Quiz Time!</h1>
                 <h3 id="byline">Test your knowledge</h3>
             </div>
