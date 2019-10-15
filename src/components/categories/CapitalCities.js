@@ -16,7 +16,7 @@ const CapitalCities = () => {
     const categoryQuestion='Name the capital city of:';
    
     return(
-        <div className="quiz-container" style={{border: 'solid white'}}>
+        <div className="quiz-container">
             <h1 id="title">CAPITAL CITIES</h1>
          {!started &&(  
             <button id="start-button" onClick={handleStart}>START</button>
