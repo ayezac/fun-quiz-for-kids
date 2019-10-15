@@ -46,6 +46,12 @@
         border-radius: 3cm;
         margin: 20px;
     }
+    button:focus{
+        outline: none;
+    }
+    input:focus{
+        outline: none;
+    }
 
     #start-button {
         font-size: 25px;
@@ -77,29 +83,9 @@
     width: 140px;
 }
 
-.check{
-    position: relative;
-    left: 470px;
-    top: 100px;
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
-    text-align: center;
-    color: #f5f5f5;
-    padding-top: 10px;
 
-}
-#correct{
-    background-color: green;
-}
-
-#wrong{
-    background-color: red;
-}
 .button-container{
     width: 300px;
-    display: flex;
-    flex-direction: row;
     text-align: center;
     margin: auto;
     margin-top: 20px;
