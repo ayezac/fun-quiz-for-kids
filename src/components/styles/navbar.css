@@ -45,3 +45,9 @@ text-decoration: none;
  .categories:hover .dropdown-content {
      display: block;  
     }
+
+    @media only screen and (max-width: 414px){
+        #navbar{
+            width: 100vw;
+        }
+    }

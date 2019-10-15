@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../styles/style.css';
-import '../styles/questionContainer.css';
 import capitalCitiesQuiz from '../../quizData/capitalCitiesQuizData';
 import QuestionContainer from '../QuestionContainer';
 
@@ -17,7 +16,7 @@ const CapitalCities = () => {
    
     return(
         <div className="quiz-container">
-            <h1 id="title">CAPITAL CITIES</h1>
+            <h1>CAPITAL CITIES</h1>
          {!started &&(  
             <button id="start-button" onClick={handleStart}>START</button>
             )} 
