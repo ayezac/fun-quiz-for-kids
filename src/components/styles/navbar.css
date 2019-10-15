@@ -46,7 +46,8 @@ text-decoration: none;
      display: block;  
     }
 
-    @media only screen and (max-width: 414px){
+
+    @media only screen and (max-width: 768px){
         #navbar{
             width: 100vw;
         }
